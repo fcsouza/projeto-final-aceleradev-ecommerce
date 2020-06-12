@@ -1,0 +1,140 @@
+.title {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  color: #41414d;
+  position: relative;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  background: #ccc;
+  padding: 10px;
+}
+
+.title__form {
+  width: 100%;
+  max-width: 350px;
+  background: #ccc;
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+}
+
+.title__input {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  border: none;
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  font: 400 14px Roboto, sans-serif;
+}
+
+.title__input:focus {
+  box-shadow: 0px 2px 0px #41414d;
+}
+
+.msg--items-found {
+  opacity: 0.6;
+  font-size: 12px;
+}
+
+.icon--clear-text {
+  position: absolute;
+  top: 16px;
+  right: 12px;
+  font-size: 28px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.search-modal {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 10px 10px;
+  background-image: url("../../assets/background.png");
+  color: #41414d;
+}
+
+.msg {
+  margin-top: 20px;
+  color: #000;
+  font-weight: 500;
+}
+
+.search-product {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 10px;
+  background: #fff;
+}
+
+.search-product__poster {
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  overflow: hidden;
+}
+
+.search-product__img {
+  width: 100%;
+  height: auto;
+}
+
+.search-product__description {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-product__name {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.search-product__pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.search-product__parcel-price {
+  font-size: 12px;
+  margin-top: 5px;
+  color: red;
+}
+
+.search-product__price {
+  color: #41414d;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+@media (max-width: 635px) {
+  .title {
+    width: 100%;
+    max-width: none;
+  }
+  .title__form {
+    width: 100%;
+    max-width: none;
+  }
+}

@@ -1,0 +1,137 @@
+.catalog {
+  padding-top: 10px;
+  width: 100%;
+}
+
+.loading {
+  overflow: hidden;
+  width: 100%;
+  height: 6px;
+  margin-top: 5px;
+}
+
+.loading__indeterminate {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.loading__indeterminate:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  background-color: #41414d;
+  animation: indeterminate 0.6s infinite ease-out;
+}
+
+@keyframes indeterminate {
+  0% {
+    left: -100%;
+    width: 100%;
+  }
+  100% {
+    left: 100%;
+    width: 10%;
+  }
+}
+
+.catalog__counter {
+  text-align: start;
+  opacity: 0.6;
+  padding: 5px;
+}
+
+.catalog__list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.catalog__item {
+  width: 25%;
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog__poster {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+
+.catalog__img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.catalog__img:hover {
+  transform: scale(1.2);
+}
+
+.catalog__seal {
+  background: #41414d;
+  color: #fff;
+  width: 15%;
+  height: auto;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  text-align: center;
+}
+
+.catalog__description {
+  width: 100%;
+  background: #ccc;
+  text-align: center;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.catalog__name {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.catalog__pricing {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalog__price {
+  color: red;
+  text-decoration: line-through;
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.catalog__price--promo {
+  color: #000;
+  margin: 0;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .catalog__item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 426px) {
+  .catalog__item {
+    width: 100%;
+  }
+}

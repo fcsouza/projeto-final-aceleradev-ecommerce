@@ -1,0 +1,154 @@
+.cart-modal {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../assets/background.png");
+  color: #41414d;
+  padding: 10px 10px 0;
+}
+
+.is-empty-msg {
+  text-align: center;
+  margin-top: 20px;
+  color: #000;
+  font-weight: 500;
+}
+
+.cart-product {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px 15px;
+  text-align: center;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.cart-product__poster {
+  width: 100%;
+  max-width: 150px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.cart-product__img {
+  width: 100%;
+  height: auto;
+}
+
+.icon--remove {
+  font-size: 30px;
+  color: red;
+  position: absolute;
+  left: 0;
+  top: 0px;
+}
+
+.cart-product__description {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-product__name {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.cart-product__selected-size {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.cart-product__qty {
+  width: 100%;
+  max-width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cart-product__counter {
+  font-size: 16px;
+}
+
+.icon--more {
+  cursor: pointer;
+  padding: 2px;
+  font-size: 24px;
+  border: 1px solid #000;
+}
+
+.icon--less {
+  cursor: pointer;
+  padding: 2px;
+  font-size: 24px;
+  border: 1px solid #000;
+}
+
+.icon--less:hover {
+  background: #41414d;
+  color: #fff;
+}
+
+.icon--more:hover {
+  background: #41414d;
+  color: #fff;
+}
+
+.cart-product__price {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: line-through;
+  margin-bottom: 10px;
+}
+
+.cart-product__price--promo {
+  color: #41414d;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.modal__footer {
+  width: 100%;
+  max-width: 350px;
+  height: 50px;
+  position: relative;
+  display: flex;
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+  color: #41414d;
+  background: #ccc;
+  padding: 10px;
+  font-size: 16px;
+  box-shadow: 0px -5px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cart-modal__subtotal-price {
+  font-weight: 500;
+}
+
+@media (max-width: 635px) {
+  .cart-modal {
+    width: 100%;
+    max-width: none;
+  }
+
+  .modal__footer {
+    width: 100%;
+    max-width: none;
+  }
+}
