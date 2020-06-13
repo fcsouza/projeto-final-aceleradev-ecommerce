@@ -1,45 +1,91 @@
-### Fashionista E-commerce
+<p align="center">
+  <a href="" rel="noopener">
+ <img src=".github\logo1.svg" alt="Project logo" width=250px></a>
+</p>
 
-## Cenário
+<h1 align="center">React / Redux Fashionista E-commerce</h1>
 
-Segundo o levantamento, da Webshoppers (Ebit / Nielsen), os e-commerces brasileiros faturaram cerca de R$ 53,2 bilhões em 2018. O segmento “Moda e Acessórios” representa 5,6% do faturamento no varejo online, ocupando a segunda posição entre as categorias de produtos com mais pedidos, perdendo apenas para o segmento de eletroeletrônicos.
+<div align="center">
 
-Oferecer a melhor experiência aos usuários que interagem com os produtos no desktop, e principalmente em dispositivos móveis, é fundamental para se manter vivo e competitivo nesse segmento.
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/languages/count/fcsouza/projeto-final-aceleradev-ecommerce)]()
+[![GitHub Pull Requests](https://img.shields.io/github/last-commit/fcsouza/projeto-final-aceleradev-ecommerce)]()
+[![Made By](https://img.shields.io/badge/Made%20By-Fabricio%20Cavalcante-brightgreen)]()
+[![License](https://img.shields.io/badge/license-GPL-blue)](/LICENSE.gpl)
+[![Site](https://img.shields.io/badge/Clique%20me-%20para%20visualizar%20a%20plataforma-brightgreen)](https://ecommerce-codenation-fabricio.netlify.app/)
 
-## Objetivo
+</div>
+
+---
+
+## 📝 Conteúdo
+<p align="center">
+<a href="#about">Cenário</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#objective">Objetivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#dev_acess">Acesso para plataforma</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#installing">Instalando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#built_using">Tópicos abordados no projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#authors">Autor</a>
+</p>
+
+
+## 🧐 Cenário <a name = "about"></a>
+
+<p align="center">Segundo o levantamento, da Webshoppers (Ebit / Nielsen), os e-commerces brasileiros faturaram cerca de R$ 53,2 bilhões em 2018. O segmento “Moda e Acessórios” representa 5,6% do faturamento no varejo online, ocupando a segunda posição entre as categorias de produtos com mais pedidos, perdendo apenas para o segmento de eletroeletrônicos.<br><br>  
+Oferecer a melhor experiência aos usuários que interagem com os produtos no desktop, e principalmente em dispositivos móveis, é fundamental para se manter vivo e competitivo nesse segmento.<br><br>
+ Sobre o Fashionista E-commerce:<br>
+Trata-se de um e-commerce de moda feminina, onde o usuário pode:<br>
+* Visualizar os produtos<br>
+* Adicionar produtos ao carrinho<br>
+* Remover ou aumentar a quantidade de produtos no carrinho<br>
+* Pesquisar em tempo real pelos produtos<br>
+</p>
+
+
+## 🏁 Objetivo <a name = "objective"></a>
 
 Como um profissional front-end, você será responsável por desenvolver as principais funcionalidades de um e-commerce de moda feminina, o Fashionista, garantindo a melhor experiência possível para os usuários interagirem com os produtos.
 
-## Regras
+## 🔩 Acesso para plataforma - Em desenvolvimento <a name = "dev_acess"></a>
 
-Deve implementar as funcionalidades apresentadas nos wireframes / layouts.
-Deve ser mobile first, possuindo uma experiência satisfatória tanto em mobile quanto em desktop.
-Deve consumir a API do catálogo de produtos.
-O estado global da aplicação deverá ser gerenciado com Redux
-Deve ser um SPA (Single Page Application).
-Todos os produtos da API devem ser exibidos.
-Utilize BEM CSS para escrever os estilos.
-Deve-se fazer deploy do projeto, servindo-o no Netlify.
-Não utilize frameworks CSS como Bootstrap, Foundation e afins.
+[Clique para logar](https://ecommerce-codenation-fabricio.netlify.app/)
 
-## Requisitos obrigatórios
-**Para cada item do catálogo de produtos as seguintes informações devem estar na página:**
 
-Imagem
-Nome
-Preço
-Status “Em promoção”
-Preço promocional (se disponível)
-Tamanhos disponíveis
-Selo “Promoção”
-Deve ser possível adicionar itens por tamanho no carrinho de compras.
+### ⚒ Instalando <a name = "installing"></a>
+```bash
+# Clone this repository
+$ git clone https://github.com/fcsouza/projeto-final-aceleradev-ecommerce
 
-Deve ser possível visualizar os itens adicionados no carrinho de compras, exibindo imagem, nome, preço e quantidade.
+# Go into the repository
+$ cd projeto-final-aceleradev-ecommerce
 
-Deve ser possível remover itens do carrinho de compras.
+# Install dependencies
+$ yarn install
 
-## Requisitos opcionais
+# Start Project
+$ yarn start
+```
 
-O carrinho de compras deve persistir entre reloads de página.
-Alguns produtos não tem todos os tamanhos disponíveis, mostre apenas os tamanhos disponíveis em estoque.
-Implemente a funcionalidade de busca em tempo real.
+## 👨‍💼 Tópicos abordados no projeto:<a name = "built_using"></a>
+
+* React
+* Redux
+* React Redux
+* Redux-Thunk
+* Redux-Persist
+* React Router DOM
+* React Hooks
+* PWA
+* JS Funcional
+* Modularização: `BEM` (Bloco, Elemento e Modificador)
+* Rails-Style Structure
+* Axios
+* Mobile First
+
+## ✍️ Autor <a name = "authors"></a>
+
+- [@fcsouza](https://github.com/fcsouza)
+
+## 🗒 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
