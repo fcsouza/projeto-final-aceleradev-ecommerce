@@ -7,6 +7,7 @@
 
 <div align="center">
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ab73ee3e-f1f1-4319-bb8a-bfe0d8c17985/deploy-status)](https://app.netlify.com/sites/ecommerce-codenation-fabricio/deploys)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![GitHub Issues](https://img.shields.io/github/languages/count/fcsouza/projeto-final-aceleradev-ecommerce)]()
 [![GitHub Pull Requests](https://img.shields.io/github/last-commit/fcsouza/projeto-final-aceleradev-ecommerce)]()
